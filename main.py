@@ -11,6 +11,8 @@ def main():
     Function to start the asteroids game.
     """
     print(f"Starting asteroids!")
+    print(f"Screen width: {SCREEN_WIDTH}")
+    print(f"Screen height: {SCREEN_HEIGHT}")
 
 
 if __name__ == "__main__":
