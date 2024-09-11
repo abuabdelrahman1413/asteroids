@@ -11,6 +11,10 @@ Attributes:
 	ASTEROID_KINDS (int): The number of different kinds of asteroids.
 	ASTEROID_SPAWN_RATE (float): The rate at which asteroids spawn in seconds.
 	ASTEROID_MAX_RADIUS (int): The maximum radius of an asteroid.
+	PLAYER_RADIUS (int): The radius of the player.
+	PLAYER_TURN_SPEED (int): The speed at which the player turns.
+	PLAYER_SPEED (int): The speed at which the player moves.
+	SHOT_RADIUS (int): The radius of a shot.
 """
 SCREEN_HEIGHT = 720
 
@@ -21,3 +25,5 @@ ASTEROID_MAX_RADIUS = ASTEROID_MIN_RADIUS * ASTEROID_KINDS
 PLAYER_RADIUS = 20
 PLAYER_TURN_SPEED = 300
 PLAYER_SPEED = 200
+SHOT_RADIUS = 5
+PLAYER_SHOOT_SPEED = 500
