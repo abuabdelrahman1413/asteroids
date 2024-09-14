@@ -8,9 +8,8 @@ class Shot(CircleShape):
     A class to represent a shot fired by the player.
     """
 
-    def __init__(self, x, y, radius, velocity):
-        super().__init__(x, y, radius)
-        self.velocity = velocity
+    def __init__(self, x, y):
+        super().__init__(x, y, SHOT_RADIUS)
 
     def draw(self, screen):
         """
